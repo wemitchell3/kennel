@@ -9,10 +9,10 @@ export default class LocationList extends Component {
         <section className="locations">
           {this.props.locations.map(location => (
             <div key={location.id}>
-            <p>
+            <p className="locationName">
                 {location.name}
             </p>
-            <p>
+            <p className="locationAddress">
                 {location.address}
             </p>
             </div>
