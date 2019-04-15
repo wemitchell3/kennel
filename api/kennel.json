@@ -13,9 +13,9 @@
       "name": "Zoe LeBlanc"
     },
     {
-        "id": 4,
-        "name": "Blaise Roberts"
-      }
+      "id": 4,
+      "name": "Blaise Roberts"
+    }
   ],
   "locations": [
     {
@@ -72,8 +72,8 @@
       "phone": "8675309"
     },
     {
-      "id": 4,
-      "name": "Sue",
+      "id": 3,
+      "name": "Sally",
       "phone": "8675309"
     }
   ]
