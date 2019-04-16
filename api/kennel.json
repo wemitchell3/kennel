@@ -11,10 +11,6 @@
     {
       "id": 3,
       "name": "Zoe LeBlanc"
-    },
-    {
-      "id": 4,
-      "name": "Blaise Roberts"
     }
   ],
   "locations": [
@@ -49,10 +45,6 @@
     {
       "id": 5,
       "name": "Derkins"
-    },
-    {
-      "id": 6,
-      "name": "Checkers"
     }
   ],
   "owners": [
@@ -69,11 +61,6 @@
     {
       "id": 3,
       "name": "Harry",
-      "phone": "8675309"
-    },
-    {
-      "id": 3,
-      "name": "Sally",
       "phone": "8675309"
     }
   ]
