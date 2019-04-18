@@ -4,11 +4,11 @@ import "./location.css";
 export default class LocationList extends Component {
   render() {
     return (
-      <section className="content">
+      <article className="content">
         <h1>Our Locations</h1>
         <section className="locations">
           {this.props.locations.map(location => (
-            <div key={location.id}>
+            <div key={location.id} className="location">
             <p className="locationName">
                 {location.name}
             </p>
@@ -18,7 +18,7 @@ export default class LocationList extends Component {
             </div>
           ))}
         </section>
-      </section>
+      </article>
     );
   }
 }
