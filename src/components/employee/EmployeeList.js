@@ -1,4 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
+import { Link } from "react-router-dom";
+import employeeIcon from "./employeeIcon.png"
 import "./employee.css"
 
 export default class EmployeeList extends Component {
@@ -12,7 +14,9 @@ export default class EmployeeList extends Component {
                 <div key={employee.id} className="card">
                     <div className="card-body">
                         <h5 className="card-title">
+                        <img src={employeeIcon} className="icon--employee" alt="Employee Icon" />
                             {employee.name}
+                            <Link className="nav-link" to={`/employees/${employee.id}`}>Details</Link>
                             <button
                                 onClick={() => this.props.deleteEmployee(employee.id)}
                                 className="card-link">Fire Employee</button>
