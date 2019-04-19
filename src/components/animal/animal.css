@@ -1,34 +1,45 @@
 .animals {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  flex-flow: wrap;
+  /* align-content: center; */
+  justify-content: center;
 }
-
 .icon--dog {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
-
 .card {
-    width: 10rem;
+  min-width: 150px;
 }
-
 .card-title {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
-
 .card-link {
-    margin: 12px 0 0 0;
-    font-size: 0.7em;
+  margin: 12px 0 0 0;
+  font-size: 0.7em;
 }
-
 .ownersList {
-    font-size: 0.75em;
+  font-size: 0.75em;
 }
-
 .icon--dog {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
+}
+.animalButton {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 10px 0;
+}
+.dischargeButton {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 10px 0;
+}
+.animalDetail {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }

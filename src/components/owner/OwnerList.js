@@ -6,8 +6,20 @@ import "./owner.css"
 export default class OwnerList extends Component {
   render() {
     return (
-      <section className="content">
-        <h1>Our Owners</h1>
+      <React.Fragment>
+        <section className="content">
+          <div className="ownerButton">
+            <button
+              type="button"
+              className="btn btn-success"
+              onClick={() => {
+                this.props.history.push("/owners/new");
+              }}
+            >
+              Add Owner
+            </button>
+          </div>
+        <h1 className="pageTitle">Our Owners</h1>
         <section className="owners">
            {
             this.props.owners.map(owner =>
@@ -24,7 +36,7 @@ export default class OwnerList extends Component {
                           <Link className="nav-link" to={`/owners/${owner.id}`}>Details</Link>
                           <button 
                             onClick={() => this.props.deleteOwner(owner.id)}
-                            className="card-link">Fire owner</button>
+                            className="btn btn-success">Fire owner</button>
                         </h5>
                     </div>
                 </div>
@@ -32,6 +44,7 @@ export default class OwnerList extends Component {
         }
         </section>
       </section>
+      </React.Fragment>
     );
   }
 }

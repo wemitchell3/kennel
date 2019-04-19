@@ -2,24 +2,31 @@
     display: flex;
     justify-content: space-evenly;
 }
-
 .card {
-    width: 10rem;
-}
-
+    min-width: 150px;
+  }
 .card-title {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    
 }
-
 .card-link {
     margin: 12px 0 0 0;
     font-size: 0.7em;
 }
-
 .icon--employee {
     width: 50px;
     height: 50px;
+}
+.employeeButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+  }
+.employeeDetail {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }

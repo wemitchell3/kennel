@@ -6,3 +6,9 @@
 .content {
     margin-top: 50px;
 }
+
+.pageTitle {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
