@@ -13,5 +13,14 @@ export default {
     })
       .then(e => e.json())
       .then(this.getAll);
+  },
+  post(newEmployee) {
+    return fetch(`${remoteURL}/employees`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(newEmployee)
+    }).then(data => data.json())
   }
 }

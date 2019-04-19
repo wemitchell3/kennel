@@ -9,7 +9,8 @@ export default class Animal extends Component {
     
     render() {
         return (
-            <section className="content">
+            <article className="content">
+            <section className="animalDetail">
                 <div key={ this.props.animal.id } className="card">
                     <div className="card-body">
                         <h4 className="card-title">
@@ -26,10 +27,11 @@ export default class Animal extends Component {
                             }
                         }
                         disabled={ this.state.saveDisabled }
-                        className="card-link">Discharge</button>
+                        className="btn btn-success">Discharge</button>
                     </div>
                 </div>
-            </section>
+                </section>
+            </article>
         )
     }
 }

@@ -2,19 +2,33 @@
   "employees": [
     {
       "id": 1,
-      "name": "Jessica Younker"
+      "name": "Jessica Younker",
+      "number": "867-5309",
+      "address": "123 Test Road"
     },
     {
       "id": 2,
-      "name": "Jordan Nelson"
+      "name": "Jordan Nelson",
+      "number": "867-5309",
+      "address": "123 Test Road"
     },
     {
       "id": 3,
-      "name": "Zoe LeBlanc"
+      "name": "Zoe LeBlanc",
+      "number": "867-5309",
+      "address": "123 Test Road"
     },
     {
       "id": 4,
-      "name": "Blaise Roberts"
+      "name": "Blaise Roberts",
+      "number": "867-5309",
+      "address": "123 Test Road"
+    },
+    {
+      "name": "Billy",
+      "number": "234234",
+      "address": "1234 Test Ave",
+      "id": 5
     }
   ],
   "locations": [
@@ -32,27 +46,45 @@
   "animals": [
     {
       "id": 1,
-      "name": "Max"
+      "name": "Max",
+      "breed": "Jack Russel",
+      "employeeId": 1
     },
     {
       "id": 2,
-      "name": "Jack"
+      "name": "Jack",
+      "breed": "Jack Russel",
+      "employeeId": 1
     },
     {
       "id": 3,
-      "name": "Angus"
+      "name": "Angus",
+      "breed": "Jack Russel",
+      "employeeId": 1
     },
     {
       "id": 4,
-      "name": "Henley"
+      "name": "Henley",
+      "breed": "Jack Russel",
+      "employeeId": 1
     },
     {
       "id": 5,
-      "name": "Derkins"
+      "name": "Derkins",
+      "breed": "Jack Russel",
+      "employeeId": 1
     },
     {
       "id": 6,
-      "name": "Checkers"
+      "name": "Checkers",
+      "breed": "Jack Russel",
+      "employeeId": 1
+    },
+    {
+      "name": "Dug",
+      "breed": "Jack Russel",
+      "employeeId": 1,
+      "id": 7
     }
   ],
   "owners": [
